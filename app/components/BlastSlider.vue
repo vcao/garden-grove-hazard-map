@@ -37,12 +37,12 @@ function fmtFeet(m: number) {
     </div>
 
     <div class="grid grid-cols-2 gap-2 text-sm">
-      <div class="rounded border border-red-300 bg-red-50 p-2 dark:bg-red-950/30">
+      <div class="rounded border border-red-300 bg-red-50 p-2 dark:bg-red-950">
         <div class="text-xs font-medium text-red-700 dark:text-red-300">Overpressure (1 psi)</div>
         <div class="font-mono">{{ fmtMeters(radii.overpressureRadiusM) }}</div>
         <div class="font-mono text-xs text-gray-500">{{ fmtFeet(radii.overpressureRadiusM) }}</div>
       </div>
-      <div class="rounded border border-amber-300 bg-amber-50 p-2 dark:bg-amber-950/30">
+      <div class="rounded border border-amber-300 bg-amber-50 p-2 dark:bg-amber-950">
         <div class="text-xs font-medium text-amber-700 dark:text-amber-300">Shrapnel envelope</div>
         <div class="font-mono">{{ fmtMeters(radii.shrapnelRadiusM) }}</div>
         <div class="font-mono text-xs text-gray-500">{{ fmtFeet(radii.shrapnelRadiusM) }}</div>
