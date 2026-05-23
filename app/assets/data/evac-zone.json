@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Garden Grove MMA Incident — Mandatory Evacuation Zone",
+        "areaDesc": "North Ball Road, East Dale, South Trask, West Valley View",
+        "evacType": "Evacuation Order (Mandatory)",
+        "source": "OC Public Works — Evacuation_Areas_Public_Layer FID 3905 (https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/Evacuation_Areas_Public_Layer/FeatureServer/0)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-118.028004514353, 33.8099163415731],
+            [-117.984461675752, 33.8095720311298],
+            [-117.983762583883, 33.7666142744858],
+            [-118.042694030767, 33.7673113804086],
+            [-118.042131978443, 33.7709215824548],
+            [-118.035971117133, 33.7760271175586],
+            [-118.029545652792, 33.7816769335847],
+            [-118.028004514353, 33.8099163415731]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Garden Grove Sports and Recreation Center",
+        "type": "Evacuation",
+        "address": "11440 Stanford Ave, Garden Grove, CA 92840",
+        "notes": "Primary indoor shelter operated by the City of Garden Grove."
+      },
+      "geometry": { "type": "Point", "coordinates": [-117.9328999, 33.7777997] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cypress Recreation and Community Center",
+        "type": "Evacuation",
+        "address": "5700 Orange Ave, Cypress, CA 90630",
+        "notes": "Accepts pets in carriers; cooling shelter capacity available."
+      },
+      "geometry": { "type": "Point", "coordinates": [-118.0332763, 33.8244702] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Savannah High School",
+        "type": "Reunification",
+        "address": "1810 S Knott Ave, Anaheim, CA 92804",
+        "notes": "Large-capacity site staffed by AUHSD; primary reunification point."
+      },
+      "geometry": { "type": "Point", "coordinates": [-118.010949, 33.8312449] }
+    }
+  ]
+}
