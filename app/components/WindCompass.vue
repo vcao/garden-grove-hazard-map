@@ -77,7 +77,7 @@ function compassLabel(deg: number) {
 <template>
   <div class="space-y-3">
     <div>
-      <div class="text-sm font-medium mb-1">Wind direction</div>
+      <div class="text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Wind direction</div>
       <div class="flex items-start gap-3">
         <svg
           ref="svgRef"
@@ -123,14 +123,20 @@ function compassLabel(deg: number) {
         </svg>
 
         <div class="text-xs space-y-1">
-          <div><span class="text-gray-500">From:</span> <span class="font-mono">{{ windFromDeg }}° ({{ compassLabel(windFromDeg) }})</span></div>
-          <div><span class="text-gray-500">Plume travels:</span> <span class="font-mono">{{ compassLabel(travelDeg) }}</span></div>
+          <div>
+            <span class="text-gray-700 dark:text-gray-300">From:</span>
+            <span class="font-mono text-gray-900 dark:text-gray-100">{{ windFromDeg }}° ({{ compassLabel(windFromDeg) }})</span>
+          </div>
+          <div>
+            <span class="text-gray-700 dark:text-gray-300">Plume travels:</span>
+            <span class="font-mono text-gray-900 dark:text-gray-100">{{ compassLabel(travelDeg) }}</span>
+          </div>
         </div>
       </div>
     </div>
 
     <div :class="{ 'opacity-60': props.disabled }">
-      <label class="block text-sm font-medium mb-1">
+      <label class="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">
         Wind speed: <span class="font-mono">{{ windSpeedMph }} mph</span>
       </label>
       <input

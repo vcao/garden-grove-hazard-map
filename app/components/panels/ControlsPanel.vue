@@ -39,7 +39,7 @@ function compassLabel(deg: number) {
       <h3 class="text-sm font-semibold uppercase tracking-wide text-gray-500 mb-3">Wind &amp; Potential Plume</h3>
 
       <div class="mb-3">
-        <div class="text-xs font-medium mb-1.5 text-gray-700 dark:text-gray-300">
+        <div class="text-xs font-medium mb-1.5 text-gray-900 dark:text-gray-100">
           Animated wind on map
         </div>
         <div class="segmented">
