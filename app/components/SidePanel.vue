@@ -59,7 +59,6 @@ const tabs: TabDef[] = [
           <span>For an actual emergency, call <strong>911</strong></span>
         </a>
       </div>
-      <p class="emergency-note">For an actual emergency, call <a href="tel:911">911</a>.</p>
 
       <p class="disclaimer">
         <strong>Disclaimer:</strong> theoretical model for situational awareness only — not a substitute for ALOHA / EPA RMP or official guidance.
