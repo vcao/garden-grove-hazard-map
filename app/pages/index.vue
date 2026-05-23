@@ -7,6 +7,10 @@ import {
 } from '~/composables/useHazardConstants'
 import { computeHazard } from '~/composables/useHazardModel'
 
+definePageMeta({
+  colorMode: 'light'
+})
+
 const evacZone = evacZoneRaw as unknown as FeatureCollection
 const evacCenters = evacCentersRaw as unknown as FeatureCollection
 

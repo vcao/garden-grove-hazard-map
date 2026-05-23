@@ -120,7 +120,7 @@ const tabs: TabDef[] = [
 
 .tab-bar {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 0;
   padding: 6px 6px 0;
   border-bottom: 1px solid rgb(229 231 235);

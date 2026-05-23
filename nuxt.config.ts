@@ -16,6 +16,14 @@ export default defineNuxtConfig({
     fallback: 'light'
   },
 
+  icon: {
+    mode: 'svg',
+    clientBundle: {
+      scan: true,
+      includeCustomCollections: true
+    }
+  },
+
   components: [
     { path: '~/components', pathPrefix: false }
   ],

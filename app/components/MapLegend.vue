@@ -25,7 +25,7 @@ const expanded = ref(true)
       </li>
       <li>
         <span class="swatch center-dot" aria-hidden="true" />
-        <span>Evacuation / Reunification Center</span>
+        <span>Evacuation Center</span>
       </li>
       <li>
         <span class="swatch overpressure-ring" aria-hidden="true" />
