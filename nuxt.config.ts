@@ -11,6 +11,11 @@ export default defineNuxtConfig({
     enabled: true
   },
 
+  colorMode: {
+    preference: 'light',
+    fallback: 'light'
+  },
+
   components: [
     { path: '~/components', pathPrefix: false }
   ],
@@ -37,8 +42,8 @@ export default defineNuxtConfig({
         { name: 'description', content: 'Interactive blast, shrapnel, and toxic plume modeling for the May 2026 GKN Aerospace methyl methacrylate (MMA) incident in Garden Grove, CA. Live wind data, adjustable spill volume, and the official evacuation zone overlaid on a satellite map.' },
         { name: 'keywords', content: 'Garden Grove, GKN Aerospace, MMA, methyl methacrylate, hazard map, evacuation, blast radius, vapor cloud, plume, emergency, situational awareness, Orange County' },
         { name: 'author', content: 'Victor Cao' },
-        { name: 'theme-color', content: '#020617' },
-        { name: 'color-scheme', content: 'dark light' },
+        { name: 'theme-color', content: '#ffffff' },
+        { name: 'color-scheme', content: 'light' },
 
         { property: 'og:type', content: 'website' },
         { property: 'og:site_name', content: 'Garden Grove Hazard Map' },

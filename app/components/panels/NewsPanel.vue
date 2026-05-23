@@ -12,13 +12,13 @@ const { data: posts } = await useAsyncData('news', () =>
     <article
       v-for="post in posts ?? []"
       :key="post.path"
-      class="rounded border border-gray-200 dark:border-gray-700 p-3"
+      class="rounded border border-gray-200 p-3"
     >
       <header class="mb-2">
         <h3 class="font-semibold text-sm">{{ post.title }}</h3>
         <time class="text-xs text-gray-500 font-mono">{{ post.date }}</time>
       </header>
-      <div class="prose prose-sm dark:prose-invert max-w-none">
+      <div class="prose prose-sm max-w-none">
         <ContentRenderer :value="post" />
       </div>
     </article>

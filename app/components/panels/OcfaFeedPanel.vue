@@ -59,7 +59,7 @@ onMounted(async () => {
             <UIcon name="i-lucide-external-link" class="size-3 text-gray-400" />
           </div>
           <div class="text-xs text-gray-500">@OCFireAuthority</div>
-          <div class="text-xs text-gray-600 dark:text-gray-400 mt-1.5 leading-snug">
+          <div class="text-xs text-gray-600 mt-1.5 leading-snug">
             Live incident updates, evacuation orders, and shelter information. Open on X.com for the latest posts.
           </div>
         </div>
@@ -95,16 +95,6 @@ onMounted(async () => {
 .cta-card:hover {
   background: rgb(249 250 251);
   border-color: rgb(209 213 219);
-}
-
-:global(.dark) .cta-card {
-  background: rgb(17 24 39);
-  border-color: rgb(31 41 55);
-}
-
-:global(.dark) .cta-card:hover {
-  background: rgb(31 41 55);
-  border-color: rgb(55 65 81);
 }
 
 .cta-avatar {

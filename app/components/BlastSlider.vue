@@ -19,7 +19,7 @@ function fmtFeet(m: number) {
 <template>
   <div class="space-y-3">
     <div>
-      <label class="block text-sm font-medium mb-1">
+      <label class="block text-sm font-medium mb-1 text-gray-900">
         Gas volume: <span class="font-mono">{{ gallons.toLocaleString() }} gal</span>
       </label>
       <input
@@ -37,15 +37,15 @@ function fmtFeet(m: number) {
     </div>
 
     <div class="grid grid-cols-2 gap-2 text-sm">
-      <div class="rounded border border-red-300 bg-red-50 p-2 dark:bg-red-950">
-        <div class="text-xs font-medium text-red-700 dark:text-red-300">Overpressure (1 psi)</div>
-        <div class="font-mono">{{ fmtMeters(radii.overpressureRadiusM) }}</div>
-        <div class="font-mono text-xs text-gray-500">{{ fmtFeet(radii.overpressureRadiusM) }}</div>
+      <div class="rounded border border-red-300 bg-red-50 p-2">
+        <div class="text-xs font-medium text-red-700">Overpressure (1 psi)</div>
+        <div class="font-mono text-gray-900">{{ fmtMeters(radii.overpressureRadiusM) }}</div>
+        <div class="font-mono text-xs text-gray-600">{{ fmtFeet(radii.overpressureRadiusM) }}</div>
       </div>
-      <div class="rounded border border-amber-300 bg-amber-50 p-2 dark:bg-amber-950">
-        <div class="text-xs font-medium text-amber-700 dark:text-amber-300">Shrapnel envelope</div>
-        <div class="font-mono">{{ fmtMeters(radii.shrapnelRadiusM) }}</div>
-        <div class="font-mono text-xs text-gray-500">{{ fmtFeet(radii.shrapnelRadiusM) }}</div>
+      <div class="rounded border border-amber-300 bg-amber-50 p-2">
+        <div class="text-xs font-medium text-amber-700">Shrapnel envelope</div>
+        <div class="font-mono text-gray-900">{{ fmtMeters(radii.shrapnelRadiusM) }}</div>
+        <div class="font-mono text-xs text-gray-600">{{ fmtFeet(radii.shrapnelRadiusM) }}</div>
       </div>
     </div>
 

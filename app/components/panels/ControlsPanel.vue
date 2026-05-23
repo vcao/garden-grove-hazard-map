@@ -39,7 +39,7 @@ function compassLabel(deg: number) {
       <h3 class="text-sm font-semibold uppercase tracking-wide text-gray-500 mb-3">Wind &amp; Potential Plume</h3>
 
       <div class="mb-3">
-        <div class="text-xs font-medium mb-1.5 text-gray-900 dark:text-gray-100">
+        <div class="text-xs font-medium mb-1.5 text-gray-900">
           Animated wind on map
         </div>
         <div class="segmented">
@@ -107,10 +107,6 @@ function compassLabel(deg: number) {
   overflow: hidden;
 }
 
-:global(.dark) .segmented {
-  border-color: rgb(55 65 81);
-}
-
 .seg-btn {
   padding: 5px 12px;
   font-size: 12px;
@@ -126,16 +122,8 @@ function compassLabel(deg: number) {
   border-left: 1px solid rgb(209 213 219);
 }
 
-:global(.dark) .seg-btn + .seg-btn {
-  border-left-color: rgb(55 65 81);
-}
-
 .seg-btn:hover:not(.active) {
   background: rgb(243 244 246);
-}
-
-:global(.dark) .seg-btn:hover:not(.active) {
-  background: rgb(31 41 55);
 }
 
 .seg-btn.active {

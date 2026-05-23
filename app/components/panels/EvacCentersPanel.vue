@@ -40,7 +40,7 @@ function go(coords: [number, number]) {
       <li
         v-for="c in centers"
         :key="c.name"
-        class="rounded border border-gray-200 dark:border-gray-700 p-3 hover:bg-blue-50 dark:hover:bg-blue-950 cursor-pointer transition-colors"
+        class="rounded border border-gray-200 p-3 hover:bg-blue-50 cursor-pointer transition-colors"
         @click="go(c.coords)"
       >
         <div class="flex items-start justify-between gap-2">
@@ -48,7 +48,7 @@ function go(coords: [number, number]) {
           <UBadge v-if="c.type" :label="c.type" size="xs" variant="subtle" />
         </div>
         <div v-if="c.address" class="text-xs text-gray-500 mt-1">{{ c.address }}</div>
-        <div v-if="c.notes" class="text-xs text-gray-600 dark:text-gray-400 mt-1">{{ c.notes }}</div>
+        <div v-if="c.notes" class="text-xs text-gray-600 mt-1">{{ c.notes }}</div>
       </li>
     </ul>
   </div>

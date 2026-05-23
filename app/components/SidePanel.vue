@@ -37,9 +37,9 @@ const tabs: TabDef[] = [
 
 <template>
   <aside class="side-panel">
-    <header class="px-4 pt-4 pb-3 border-b border-gray-200 dark:border-gray-800">
-      <h1 class="text-base font-semibold leading-tight">Garden Grove Hazard Map</h1>
-      <p class="text-xs text-gray-500 mt-0.5">GKN Aerospace MMA incident</p>
+    <header class="px-4 pt-4 pb-3 border-b border-gray-200">
+      <h1 class="text-base font-semibold leading-tight text-gray-900">Garden Grove Hazard Map</h1>
+      <p class="text-xs text-gray-600 mt-0.5">GKN Aerospace MMA incident</p>
 
       <div class="phone-pills">
         <a
@@ -118,21 +118,12 @@ const tabs: TabDef[] = [
   border-left: 1px solid rgb(229 231 235);
 }
 
-:global(.dark) .side-panel {
-  border-left-color: rgb(31 41 55);
-  background: rgb(17 24 39);
-}
-
 .tab-bar {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 0;
   padding: 6px 6px 0;
   border-bottom: 1px solid rgb(229 231 235);
-}
-
-:global(.dark) .tab-bar {
-  border-bottom-color: rgb(31 41 55);
 }
 
 .tab-button {
@@ -153,14 +144,6 @@ const tabs: TabDef[] = [
 
 .tab-button:hover {
   color: rgb(55 65 81);
-}
-
-:global(.dark) .tab-button {
-  color: rgb(156 163 175);
-}
-
-:global(.dark) .tab-button:hover {
-  color: rgb(229 231 235);
 }
 
 .tab-button.active {
@@ -249,6 +232,8 @@ const tabs: TabDef[] = [
     height: 50vh;
     border-left: none;
     border-top: 1px solid rgb(229 231 235);
+    display: block;
+    overflow-y: auto;
   }
 }
 </style>
