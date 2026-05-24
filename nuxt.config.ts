@@ -58,9 +58,9 @@ export default defineNuxtConfig({
         { property: 'og:title', content: 'Garden Grove Hazard Map' },
         { property: 'og:description', content: 'Interactive blast, shrapnel, and plume modeling for the May 2026 GKN Aerospace MMA incident in Garden Grove, CA.' },
         { property: 'og:url', content: 'https://garden-grove-hazard-map.pages.dev/' },
-        { property: 'og:image', content: 'https://garden-grove-hazard-map.pages.dev/og-image.png' },
-        { property: 'og:image:secure_url', content: 'https://garden-grove-hazard-map.pages.dev/og-image.png' },
-        { property: 'og:image:type', content: 'image/png' },
+        { property: 'og:image', content: 'https://garden-grove-hazard-map.pages.dev/og-image.jpg' },
+        { property: 'og:image:secure_url', content: 'https://garden-grove-hazard-map.pages.dev/og-image.jpg' },
+        { property: 'og:image:type', content: 'image/jpeg' },
         { property: 'og:image:width', content: '1200' },
         { property: 'og:image:height', content: '630' },
         { property: 'og:image:alt', content: 'Garden Grove Hazard Map preview showing overpressure, shrapnel, and plume zones around the GKN Aerospace site.' },
@@ -69,7 +69,7 @@ export default defineNuxtConfig({
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: 'Garden Grove Hazard Map' },
         { name: 'twitter:description', content: 'Interactive blast, shrapnel, and plume modeling for the May 2026 GKN Aerospace MMA incident in Garden Grove, CA.' },
-        { name: 'twitter:image', content: 'https://garden-grove-hazard-map.pages.dev/og-image.png' },
+        { name: 'twitter:image', content: 'https://garden-grove-hazard-map.pages.dev/og-image.jpg' },
         { name: 'twitter:image:alt', content: 'Garden Grove Hazard Map preview showing overpressure, shrapnel, and plume zones around the GKN Aerospace site.' }
       ],
       link: [

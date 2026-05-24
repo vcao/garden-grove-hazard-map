@@ -61,7 +61,7 @@ const tabs: TabDef[] = [
       </div>
 
       <p class="disclaimer">
-        <strong>Disclaimer:</strong> theoretical model for situational awareness only — not a substitute for ALOHA / EPA RMP or official guidance.
+        <strong>Disclaimer:</strong> theoretical model for general awareness only — not a substitute for official guidance.
         <button
           type="button"
           class="terms-link"

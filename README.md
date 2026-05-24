@@ -3,7 +3,7 @@
 A theoretical visualization of the May 21, 2026 hazardous-materials incident at the GKN Aerospace facility in Garden Grove, CA. Interactive blast radius, shrapnel envelope, toxic plume, and animated wind layer over a satellite base map.
 
 > [!WARNING]
-> This site is a **theoretical model** built for situational awareness and education. It is **not** a substitute for ALOHA, EPA RMP, or any authoritative emergency-response modeling. See the in-app **Terms of Use** for the full liability disclaimer.
+> This site is a **theoretical model** built for general awareness. It is **not** a substitute for authoritative emergency-response modeling. Please review the **Terms of Use**.
 
 ---
 
